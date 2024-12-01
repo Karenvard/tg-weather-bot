@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Telegram bot that provides weather info",
   "main": "index.ts",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node index.ts"
+  },
   "keywords": [],
   "author": "Karen Vardanian",
   "license": "ISC",
